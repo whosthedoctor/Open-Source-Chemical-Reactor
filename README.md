@@ -1,10 +1,9 @@
 # Open-Source Chemical Reactor
 
-A modular chemical reactor built on an Ender 3 gantry. Magnetic 25 mm cubes snap
+A modular chemical reactor built into an Ender 3 gantry. Magnetic 25 mm cubes snap
 together into reaction setups — spring-loaded pogo pins carry power and signal,
-genderless spring-loaded fluid connectors (O-ring sealed) carry the chemistry.
-Fluids in, product out, byproducts sorted. Design a new cube, share the file,
-remix the chemistry.
+genderless spring-loaded fluid connectors (O-ring sealed) carry the chemistry. each cube is internally sealed with Teflon/PTFE.
+Fluids in, product out, byproducts sorted. Design a new cube, share the file, remix the chemistry.
 
 ## How it works
 
@@ -15,7 +14,7 @@ remix the chemistry.
   runs the sequence.
 - **Interconnects** are all spring-loaded: pogo pins for electronics, O-ring
   face seals for fluids. Cubes self-align on magnets, so the gantry just drops
-  them in.
+  them in with a magnetic manipulator.
 
 ## Cube catalog
 
@@ -71,28 +70,6 @@ Ag + 2 HNO₃ → AgNO₃ + NO₂↑ + H₂O
 9. Inject hot water, route through a **T**: pressurized air pushes the slurry
    out through an **L** to the output
 10. Dry with heater or gas — done
-
-## Roadmap
-
-- [ ] Cube interconnect CAD: magnet pockets, pogo-pin seats, O-ring glands
-- [ ] First cube set: straight, elbow, T-mixer, inlet/outlet, plug
-- [ ] Ender 3 gantry adapter plate
-- [ ] Heater + Peltier cubes
-- [ ] Sensor cube (temp / pH)
-- [ ] End-to-end demo: silver precipitation
-
-## Contributing
-
-Open an issue with your cube idea or reaction sequence. PRs with STEP/STL
-files and a row for the catalog table are welcome. Keep the 25 mm grid and the
-connector spec sacred — everything else is fair game.
-
-## Safety
-
-⚠️ This is real chemistry. Concentrated nitric acid burns, NO₂ is toxic, and
-pressurized gas is unforgiving. Fume hood, PPE, and ventilation are mandatory.
-Validate material compatibility before running anything — this repo is a
-concept until the hardware is proven.
 
 ## License
 
