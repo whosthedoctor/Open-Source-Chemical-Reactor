@@ -4,6 +4,7 @@ A modular chemical reactor built into an Ender 3 gantry. Magnetic 25 mm cubes sn
 together into reaction setups — spring-loaded pogo pins carry power and signal,
 genderless spring-loaded fluid connectors (O-ring sealed) carry the chemistry. each cube is internally sealed with Teflon/PTFE.
 Fluids in, product out, byproducts sorted. Design a new cube, share the file, remix the chemistry.
+<img width="667" height="799" alt="image" src="https://github.com/user-attachments/assets/894a9ee6-4616-4a38-b1f3-864dfc8b9c59" />
 
 ## How it works
 
