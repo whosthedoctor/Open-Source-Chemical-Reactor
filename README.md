@@ -6,7 +6,7 @@ genderless spring-loaded fluid connectors (O-ring sealed) carry the chemistry. e
 Fluids in, product out, byproducts sorted. Design a new cube, share the file, remix the chemistry.
 <img width="667" height="799" alt="image" src="https://github.com/user-attachments/assets/894a9ee6-4616-4a38-b1f3-864dfc8b9c59" />
 
-**image of the gantry on the head of where the Ender3 Extruder would be**
+**Image of the gantry on the head of where the Ender3 Extruder would be.**
 ## How it works
 
 - **Cubes** are the unit of chemistry. Each 25 mm cube does one job: move, mix,
