@@ -1,9 +1,18 @@
 # Open-Source Chemical Reactor
 
 A modular chemical reactor built into an Ender 3 gantry. Magnetic 25 mm cubes snap
-together into reaction setups — spring-loaded pogo pins carry power and signal,
-genderless spring-loaded fluid connectors (O-ring sealed) carry the chemistry. each cube is internally sealed with Teflon/PTFE.
+together into reaction setups — spring-loaded pogo pins carry power and signal;
+genderless spring-loaded fluid connectors (O-ring sealed) carry the chemistry. Each cube is internally sealed with Teflon/PTFE.
 Fluids in, product out, byproducts sorted. Design a new cube, share the file, remix the chemistry.
+
+## Uses of this machine
+Students would be able to synthesize and create new chemicals without having to purchase expensive lab materials and PPE, and would not have to require a team of scientist to do the same work.
+College students would be able to quickly make new chemicals and compounds without having to purchase and wait for shipping or funding -> rapid prototyping.
+Industries would be able to use this to make a universal chemical creation factory, where one can order a specific chemical compound/formula, and then get it sent back or tested with the industry.
+
+
+
+
 <img width="667" height="799" alt="image" src="https://github.com/user-attachments/assets/894a9ee6-4616-4a38-b1f3-864dfc8b9c59" />
 
 **Image of the gantry on the head of where the Ender3 Extruder would be.**
