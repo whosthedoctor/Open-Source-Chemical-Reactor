@@ -72,5 +72,4 @@ Ag + 2 HNO₃ → AgNO₃ + NO₂↑ + H₂O
 10. Dry with heater or gas — done
 
 ## License
-
-TBD — proposed: CERN-OHL-S for hardware, MIT for software/firmware.
+MIT
