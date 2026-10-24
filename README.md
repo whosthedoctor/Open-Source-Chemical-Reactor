@@ -5,6 +5,10 @@ together into reaction setups — spring-loaded pogo pins carry power and signal
 genderless spring-loaded fluid connectors (O-ring sealed) carry the chemistry. Each cube is internally sealed with Teflon/PTFE.
 Fluids in, product out, byproducts sorted. Design a new cube, share the file, remix the chemistry.
 
+## Why
+
+I wanted to do chemistry reactions.
+
 ## Uses of this machine
 Students would be able to synthesize and create new chemicals without having to purchase expensive lab materials and PPE, and would not have to require a team of scientist to do the same work.
 College students would be able to quickly make new chemicals and compounds without having to purchase and wait for shipping or funding -> rapid prototyping.
