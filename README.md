@@ -91,7 +91,7 @@ Ag + 2 HNO₃ → AgNO₃ + NO₂↑ + H₂O
 ## Files
 
 - `CAD/` — carriage grabber parts (STEP); the full assembly is still being modeled
-- `firmware/printer.cfg` — Klipper configuration for the Octopus Pro controller
+- `firmware/printer.cfg` — Klipper configuration for the Manta M5P controller
 - `docs/wiring-diagram.svg` — wiring diagram
 - `BOM.csv` — full parts list with links and prices
 
@@ -107,4 +107,4 @@ Pin-by-pin details are in the header of [firmware/printer.cfg](firmware/printer.
 > **Design-stage project — not built or tested yet.** The example run uses concentrated nitric acid and produces nitrogen dioxide (NO₂), a toxic gas. Any real run requires a fume hood and chemical PPE (goggles, gloves, lab coat), plus proper chemical waste disposal. Heater cubes reach burn temperatures, the system uses pressurized gas, and the controller runs off a mains-powered supply. Never run the machine unattended, and pressure-test every cube seal with water before using real reagents.
 
 ## License
-MIT
+Hardware design (CAD) is licensed under CERN-OHL-S v2 — see LICENSE-HARDWARE. Everything else is under MIT — see LICENSE.
