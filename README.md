@@ -7,7 +7,7 @@ Fluids in, product out, byproducts sorted. Design a new cube, share the file, re
 
 ## Why
 
-I wanted to do chemistry reactions.
+I built this because I wanted to do chemistry reactions.
 
 ## Uses of this machine
 Students would be able to synthesize and create new chemicals without having to purchase expensive lab materials and PPE, and would not have to require a team of scientist to do the same work.
