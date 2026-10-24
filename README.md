@@ -94,6 +94,8 @@ Ag + 2 HNO₃ → AgNO₃ + NO₂↑ + H₂O
 - `firmware/printer.cfg` — Klipper configuration for the Manta M5P controller
 - `docs/wiring-diagram.svg` — wiring diagram
 - `BOM.csv` — full parts list with links and prices
+- `docs/cube-face-layout.md` — magnet head design + cube face template
+- `docs/face-layout.svg` — face template diagram
 
 ## Wiring
 
