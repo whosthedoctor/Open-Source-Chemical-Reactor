@@ -1,0 +1,17 @@
+component,quantity,unit_price_usd,link,notes
+Ender 3 (used - motion gantry),1,200.00,https://www.ebay.com/sch/i.html?_nkw=creality+ender+3,"Set price to 0 if already owned - PSU is included with the printer, no separate PSU needed"
+Bambu Lab PETG Translucent filament (cube structure),2,18.99,https://www.bestbuy.com/product/bambu-lab-1-75mm-petg-translucent-filament-clear/CZTZV9ZPZH/sku/6610619,Price at Best Buy checked Oct 2026
+Spring-loaded pogo pins gold-plated (pack of 100),1,15.00,https://www.amazon.com/s?k=gold+spring+loaded+pogo+pins,Power/signal interconnects between cubes
+Neodymium disc magnets (pack of 100),1,15.00,https://www.amazon.com/s?k=small+neodymium+disc+magnets,Self-aligning cube snap
+PTFE tubing 2mm ID 5m (wetted fluid path),1,15.00,https://www.amazon.com/s?k=ptfe+tubing+2mm+id,
+EPDM O-ring assortment (fluid face seals),1,12.00,https://www.amazon.com/s?k=epdm+o-ring+assortment,
+Peltier modules TEC1-12706 (Peltier cubes),4,7.50,https://www.amazon.com/s?k=tec1-12706,
+Heater cartridges 12V 40W + NTC thermistors (heater cubes),5,3.00,https://www.amazon.com/s?k=12v+40w+heater+cartridge+ntc+100k,
+12V DC peristaltic dosing pumps,2,10.00,https://www.amazon.com/s?k=12v+peristaltic+dosing+pump,
+12V 2-way solenoid valves (fluid routing),2,9.00,https://www.amazon.com/s?k=12v+2-way+solenoid+valve,
+pH probe + DS18B20 temp probes + calibration buffers (sensor cube),1,40.00,https://www.amazon.com/s?k=ph+probe+module+ds18b20+calibration+buffer,Sold as a kit
+BigTreeTech Octopus Pro V1.1 mainboard (8-axis - Klipper),1,84.98,https://snapklik.com/en-ae/product/bigtreetech-octopus-pro-v11-h723-32bit-control-board-550mhz-support-8-axis-stepper-motor-drivers-tmc2209-klipper-marlin-high-speed-voltage-printing-support-raspberry-pi-octprint-operating-systems/0PUP4P1701EC5,Price checked Oct 2026
+TMC2209 stepper drivers,5,9.00,https://www.amazon.com/s?k=tmc2209+stepper+driver,X/Y/Z + grabber rotate + grabber lift
+Raspberry Pi 4 (Klipper host - runs the sequencer),1,55.00,https://www.amazon.com/s?k=raspberry+pi+4,Price varies with stock
+Silicone wire + JST connectors + crimp kit (wiring harness),1,20.00,https://www.amazon.com/s?k=silicone+wire+jst+connector+crimp+kit,
+Shipping (consolidated estimate across vendors),1,35.00,,Stardance requires prices including shipping - TOTAL with Ender 3: $657.96 / without printer: $457.96
