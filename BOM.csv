@@ -1,5 +1,5 @@
 component,quantity,unit_price_usd,link,notes
-Ender 3 (used - motion gantry),1,200.00,https://www.ebay.com/sch/i.html?_nkw=creality+ender+3,"Set price to 0 if already owned - PSU is included with the printer, no separate PSU needed"
+Ender 3 (used - motion gantry),1,0.00,https://www.ebay.com/sch/i.html?_nkw=creality+ender+3,"ALREADY OWNED (confirmed Oct 2026) - $200 if you need to buy one. PSU is included with the printer, no separate PSU needed"
 Bambu Lab PETG Translucent filament (cube structure),2,18.99,https://www.bestbuy.com/product/bambu-lab-1-75mm-petg-translucent-filament-clear/CZTZV9ZPZH/sku/6610619,Price at Best Buy checked Oct 2026
 Spring-loaded pogo pins gold-plated (pack of 100),1,15.00,https://www.amazon.com/s?k=gold+spring+loaded+pogo+pins,Power/signal interconnects between cubes
 Neodymium disc magnets (pack of 100),1,15.00,https://www.amazon.com/s?k=small+neodymium+disc+magnets,Self-aligning cube snap
@@ -14,4 +14,4 @@ BigTreeTech Octopus Pro V1.1 mainboard (8-axis - Klipper),1,84.98,https://snapkl
 TMC2209 stepper drivers,5,9.00,https://www.amazon.com/s?k=tmc2209+stepper+driver,X/Y/Z + grabber rotate + grabber lift
 Raspberry Pi 4 (Klipper host - runs the sequencer),1,55.00,https://www.amazon.com/s?k=raspberry+pi+4,Price varies with stock
 Silicone wire + JST connectors + crimp kit (wiring harness),1,20.00,https://www.amazon.com/s?k=silicone+wire+jst+connector+crimp+kit,
-Shipping (consolidated estimate across vendors),1,35.00,,Stardance requires prices including shipping - TOTAL with Ender 3: $657.96 / without printer: $457.96
+Shipping (consolidated estimate across vendors),1,35.00,,Stardance requires prices including shipping - TOTAL: $457.96 (Ender 3 already owned)
