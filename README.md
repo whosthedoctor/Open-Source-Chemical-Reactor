@@ -50,6 +50,8 @@ Industries would be able to use this to make a universal chemical creation facto
 | Filtration | Filter membrane with filtrate routed to waste |
 | Plug | Blank — caps an unused port |
 
+The cubes themselves are open source — the interface is the standard, so anyone can design a new cube to it and share it.
+
 Got an idea for a new cube? That's the point — model it, print it, share it.
 
 ## Materials
@@ -85,6 +87,24 @@ Ag + 2 HNO₃ → AgNO₃ + NO₂↑ + H₂O
 9. Inject hot water, route through a **T**: pressurized air pushes the slurry
    out through an **L** to the output
 10. Dry with heater or gas — done
+
+## Files
+
+- `CAD/` — carriage grabber parts (STEP); the full assembly is still being modeled
+- `firmware/printer.cfg` — Klipper configuration for the Octopus Pro controller
+- `docs/wiring-diagram.svg` — wiring diagram
+- `BOM.csv` — full parts list with links and prices
+
+## Wiring
+
+![Wiring diagram](docs/wiring-diagram.svg)
+
+Pin-by-pin details are in the header of [firmware/printer.cfg](firmware/printer.cfg).
+
+## ⚠️ Safety
+
+> [!WARNING]
+> **Design-stage project — not built or tested yet.** The example run uses concentrated nitric acid and produces nitrogen dioxide (NO₂), a toxic gas. Any real run requires a fume hood and chemical PPE (goggles, gloves, lab coat), plus proper chemical waste disposal. Heater cubes reach burn temperatures, the system uses pressurized gas, and the controller runs off a mains-powered supply. Never run the machine unattended, and pressure-test every cube seal with water before using real reagents.
 
 ## License
 MIT
