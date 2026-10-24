@@ -106,5 +106,8 @@ Pin-by-pin details are in the header of [firmware/printer.cfg](firmware/printer.
 > [!WARNING]
 > **Design-stage project — not built or tested yet.** The example run uses concentrated nitric acid and produces nitrogen dioxide (NO₂), a toxic gas. Any real run requires a fume hood and chemical PPE (goggles, gloves, lab coat), plus proper chemical waste disposal. Heater cubes reach burn temperatures, the system uses pressurized gas, and the controller runs off a mains-powered supply. Never run the machine unattended, and pressure-test every cube seal with water before using real reagents.
 
+Complete Mind Map
+<img width="2800" height="2160" alt="image" src="https://github.com/user-attachments/assets/08123028-f7c8-4486-993c-5b1fa57ead92" />
+
 ## License
 MIT
