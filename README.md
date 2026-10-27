@@ -1,7 +1,7 @@
 # Open-Source Chemical Reactor
 
 A modular chemical reactor built into an Ender 3 gantry. Magnetic 25 mm cubes snap
-together into reaction setups — spring-loaded pogo pins carry power and signal;
+together into reaction setups - spring-loaded pogo pins carry power and signal;
 genderless spring-loaded fluid connectors (O-ring sealed) carry the chemistry. Each cube is internally sealed with Teflon/PTFE.
 Fluids in, product out, byproducts sorted. Design a new cube, share the file, remix the chemistry.
 
@@ -52,32 +52,29 @@ Industries would be able to use this to make a universal chemical creation facto
 
 The cubes themselves are open source — the interface is the standard, so anyone can design a new cube to it and share it.
 
-Got an idea for a new cube? That's the point — model it, print it, share it.
-
 ## Materials
 
-- **Wetted path:** PTFE — nothing sticks, nearly nothing reacts
-- **Structure:** transparent PETG — watch the chemistry happen
+- **Wetted path:** PTFE: nothing sticks, nearly nothing reacts
+- **Structure:** transparent PETG
 - **Energy blocks** (heaters, Peltiers): aluminum or brass
 - **Gaskets:** FKM (Viton)
 
 ## Fluid path: PTFE sleeves
 
 Every straight fluid bore in a cube is lined with a PTFE sleeve, so reagents
-touch PTFE and the face gasket only — never the PETG cube body:
+touch PTFE and the face gasket only.
 
 1. **Tube:** PTFE, 2 mm ID × 4 mm OD (see `BOM.csv`).
 2. **Bore:** the printed Ø4 bore is reamed by hand to Ø4.1–4.2 mm — printed
    holes come out undersize.
 3. **Cut:** sleeve length = bore depth (10 mm blind, 25 mm through). Square
-   cut with a razor blade — never pinch-cut with pliers or cutters, a crushed
+   cut with a razor blade — never pinch-cut with pliers or cutters; a crushed
    ID blocks flow.
 4. **Fit:** push the sleeve in from the face, trim it flush with the face.
 5. **Lock:** a dab of 2-part epoxy on the sleeve OD at the inner end, inside
-   the cube and out of the fluid path. (No-epoxy alternative: heat-flare the
-   inner end so it can't pull through.)
+   the cube and out of the fluid path.
 
-When two cubes mate, the sleeve ends butt together and the face gasket seals
+When two cubes mate, the sleeve ends butt together, and the face gasket seals
 the joint. Looped or tortuous channels (mixer, heater) are lined with PTFE
 tube routed through the channel where the geometry allows.
 
