@@ -59,7 +59,31 @@ Got an idea for a new cube? That's the point — model it, print it, share it.
 - **Wetted path:** PTFE — nothing sticks, nearly nothing reacts
 - **Structure:** transparent PETG — watch the chemistry happen
 - **Energy blocks** (heaters, Peltiers): aluminum or brass
-- **Gaskets:** EPDM
+- **Gaskets:** FKM (Viton)
+
+## Fluid path: PTFE sleeves
+
+Every straight fluid bore in a cube is lined with a PTFE sleeve, so reagents
+touch PTFE and the face gasket only — never the PETG cube body:
+
+1. **Tube:** PTFE, 2 mm ID × 4 mm OD (see `BOM.csv`).
+2. **Bore:** the printed Ø4 bore is reamed by hand to Ø4.1–4.2 mm — printed
+   holes come out undersize.
+3. **Cut:** sleeve length = bore depth (10 mm blind, 25 mm through). Square
+   cut with a razor blade — never pinch-cut with pliers or cutters, a crushed
+   ID blocks flow.
+4. **Fit:** push the sleeve in from the face, trim it flush with the face.
+5. **Lock:** a dab of 2-part epoxy on the sleeve OD at the inner end, inside
+   the cube and out of the fluid path. (No-epoxy alternative: heat-flare the
+   inner end so it can't pull through.)
+
+When two cubes mate, the sleeve ends butt together and the face gasket seals
+the joint. Looped or tortuous channels (mixer, heater) are lined with PTFE
+tube routed through the channel where the geometry allows.
+
+Before any new reagent is run, soak a PETG coupon and a spare gasket in it at
+the run concentration and temperature — a reagent runs only if its coupon
+passes.
 
 ## Gantry layout
 
