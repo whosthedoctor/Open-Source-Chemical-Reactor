@@ -17,9 +17,9 @@ Industries would be able to use this to make a universal chemical creation facto
 
 
 
-<img width="667" height="799" alt="image" src="https://github.com/user-attachments/assets/894a9ee6-4616-4a38-b1f3-864dfc8b9c59" />
+![Full reactor assembly](docs/full-assembly.png)
 
-**Image of the gantry on the head of where the Ender3 Extruder would be.**
+**Full reactor assembly: Ender 3 gantry with the magnet head holding a cube over the perforated bed cover.**
 ## How it works
 
 - **Cubes** are the unit of chemistry. Each 25 mm cube does one job: move, mix,
@@ -114,13 +114,16 @@ Ag + 2 HNO₃ → AgNO₃ + NO₂↑ + H₂O
 
 ## Files
 
-- `CAD/` — reactor add-on parts (STEP, no stock Ender 3 parts): 25mm cube, hotbed cover plate, and carriage parts (Parts 2–9); the full assembly is still being modeled
+- `CAD/` — reactor add-on parts (STEP, no stock Ender 3 parts): 25mm cube, hotbed cover plate, and carriage parts (Parts 2–9); full assembly in `CAD/01_MAIN_ASM_Ender_3.step`
 - `firmware/printer.cfg` — Klipper configuration for the Manta M5P controller
 - `docs/wiring-diagram.svg` — wiring diagram
 - `BOM.csv` — full parts list with links and prices
 - `docs/cube-face-layout.md` — magnet head design + cube face template (old spacing, superseded by the 4/7 diagram below)
 - `docs/face-layout.svg` — face template diagram (old spacing, superseded by the 4/7 diagram below)
 - `docs/cube-face-template-gasket.png` — cube face template diagram, square 4/7 layout with FKM gasket seal (current)
+- `docs/full-assembly.png` — full-assembly screenshot
+
+Stock Ender 3 base in the full assembly: "Creality Ender 3" by Allen Kreager, public Onshape document (https://cad.onshape.com/documents/4c5c153cb677461d7144eeb2/w/43449f3437d39d936d31fb85).
 
 ## Wiring
 
