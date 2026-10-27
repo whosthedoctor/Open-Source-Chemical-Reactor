@@ -3,7 +3,7 @@ Ender 3 (used - motion gantry),1,0.00,https://www.ebay.com/sch/i.html?_nkw=creal
 Bambu Lab PETG Translucent filament (cube structure),2,18.99,https://www.bestbuy.com/product/bambu-lab-1-75mm-petg-translucent-filament-clear/CZTZV9ZPZH/sku/6610619,Price at Best Buy checked Oct 2026
 Spring-loaded pogo pins gold-plated (pack of 100),1,15.00,https://www.amazon.com/s?k=gold+spring+loaded+pogo+pins,Power/signal interconnects between cubes
 Neodymium disc magnets (pack of 100),1,15.00,https://www.amazon.com/s?k=small+neodymium+disc+magnets,Self-aligning cube snap
-PTFE tubing 2mm ID 5m (wetted fluid path),1,15.00,https://www.amazon.com/s?k=ptfe+tubing+2mm+id,
+PTFE tubing 2mm ID x 4mm OD 5m (wetted fluid path + bore sleeves),1,15.00,https://www.amazon.com/s?k=ptfe+tubing+2mm+id,"2mm ID x 4mm OD. One sleeve per fluid bore, cut flush at the face: 10mm for a blind bore, 25mm for a through bore. 5m covers sleeves for 20 cubes plus pump/valve plumbing"
 EPDM O-ring assortment (fluid face seals),1,12.00,https://www.amazon.com/s?k=epdm+o-ring+assortment,
 Peltier modules TEC1-12706 (Peltier cubes),4,7.50,https://www.amazon.com/s?k=tec1-12706,12V part - driven via MOSFET module from dedicated 24V->12V buck rail (hybrid rail decision 2026-10-24); HB output unused for Peltier
 Heater cartridges 24V 40W 6x20mm ceramic (heater cubes),1,15.49,https://www.walmart.com/ip/16147002771?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgRzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAAacwMLf4hsAc6segmyrTY_tPW7oU3v63ht7ToV9vDttVotrcBoAh9jVfhe3ZWA_aem_LHvyiqJ7IcJmyioqT6P_bg_maisc_v74ImaPZRGaFarLcRPBr4A,"Pack of 6 (5 needed + 1 spare) - 24V cartridges match HE0/HE1 at 24V VIN, no buck needed for heaters (hybrid rail decision 2026-10-24)"
@@ -27,4 +27,5 @@ Cube-top steel discs 12mm x 1.5mm (pack of 20),1,9.00,https://www.amazon.com/s?k
 Corner steel discs 4mm x 1.5mm (pack of 100),1,8.00,https://www.amazon.com/s?k=steel+disc+4mm,"Estimate - verify; 2 per cube (diagonal, opposite the corner magnets)"
 TMC2209 stepper drivers (spares),2,9.00,https://www.amazon.com/s?k=tmc2209+stepper+driver,"Spare drivers - a shorted motor wire kills a driver; 5 in use, 2 spares"
 Peltier module TEC1-12706 (spare),1,7.50,https://www.amazon.com/s?k=tec1-12706,Spare Peltier - thermal-cycling failures; 4 in use
-Shipping (consolidated estimate across vendors),1,35.00,,Stardance requires prices including shipping - TOTAL: $590.59 (Ender 3 already owned; host = CB1; hybrid heater rail: 24V cartridges + 12V Peltier on buck/MOSFET; magnet head; includes spares: 2x TMC2209 + 1x Peltier)
+2-part epoxy syringe (sleeve retention),1,7.00,https://www.amazon.com/s?k=2+part+epoxy+syringe,"Estimate - verify. Dab on the sleeve OD at the inner end, inside the cube and out of the fluid path; also usable for potting face magnets"
+Shipping (consolidated estimate across vendors),1,35.00,,Stardance requires prices including shipping - TOTAL: $597.59 (Ender 3 already owned; host = CB1; hybrid heater rail: 24V cartridges + 12V Peltier on buck/MOSFET; magnet head; includes spares: 2x TMC2209 + 1x Peltier; PTFE bore sleeves + epoxy)
