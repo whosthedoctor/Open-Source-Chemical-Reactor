@@ -90,7 +90,7 @@ Ag + 2 HNO₃ → AgNO₃ + NO₂↑ + H₂O
 
 ## Files
 
-- `CAD/` — carriage grabber parts (STEP); the full assembly is still being modeled
+- `CAD/` — reactor add-on parts (STEP, no stock Ender 3 parts): 25mm cube, hotbed cover plate, and carriage parts (Parts 2–9); the full assembly is still being modeled
 - `firmware/printer.cfg` — Klipper configuration for the Manta M5P controller
 - `docs/wiring-diagram.svg` — wiring diagram
 - `BOM.csv` — full parts list with links and prices
