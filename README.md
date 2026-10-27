@@ -114,7 +114,7 @@ Ag + 2 HNO₃ → AgNO₃ + NO₂↑ + H₂O
 
 ## Files
 
-- `CAD/` — reactor add-on parts (STEP, no stock Ender 3 parts): 25mm cube, hotbed cover plate, and carriage parts (Parts 2–9); full assembly in `CAD/01_MAIN_ASM_Ender_3.step`
+- `CAD/` — reactor add-on parts (STEP, no stock Ender 3 parts): 25mm cube, hotbed cover plate, and carriage parts (Parts 2–9); full assembly in `CAD/01_MAIN_ASM_Ender_3.step.zip` (unzip for the .STEP)
 - `firmware/printer.cfg` — Klipper configuration for the Manta M5P controller
 - `docs/wiring-diagram.svg` — wiring diagram
 - `BOM.csv` — full parts list with links and prices
