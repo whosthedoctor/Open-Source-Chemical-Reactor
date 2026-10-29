@@ -1,5 +1,7 @@
 # Magnet head + cube face layout
 
+Face template updated to the square 4/7 layout (Oct 2026): corner magnets/steel 4 mm from all edges, pogo pins/pads 7 mm from all edges, to centres. The diagram `docs/cube-face-template-gasket.png` shows the same layout.
+
 Decision: plain permanent-magnet head, no gripper fingers, no electromagnet.
 The two NEMA11s (rotation + lift) are reused; nothing new is motorised.
 
@@ -35,11 +37,11 @@ cube can sit in any orientation.
 
 | Feature | Position | Size | Notes |
 |---|---|---|---|
-| Fluid port | centre (0, 0) | Ø10 seal zone, Ø4 bore | Centre placement is rotation-proof: the port lines up no matter how the cube is turned. O-ring face seal + the existing genderless connector concept. |
-| Pogo pins | (−5, +8), (+5, −8) | Ø2 | Spring pins. |
-| Pads | (+5, +8), (−5, −8) | Ø2 flat pads | Mating faces' pins land here. |
-| Snap magnets | (−9.5, +9.5), (+9.5, −9.5) | Ø4 × 3 mm | Diagonal pair. |
-| Snap steel discs | (+9.5, +9.5), (−9.5, −9.5) | Ø4 × 1.5 mm | Diagonal pair, opposite corners from the magnets. |
+| Fluid port | centre (0, 0) | Ø10 seal zone, Ø4 bore | Centre placement is rotation-proof: the port lines up no matter how the cube is turned. Loose FKM O-ring face seal (5 × 1.5 mm, one per mated pair, groove ID Ø5.5 / OD Ø9.5, 0.6 mm deep per face) + the existing genderless connector concept. |
+| Pogo pins | (−5.5, +5.5), (+5.5, −5.5) | Ø2 | Spring pins, 7 mm from all edges to centres. |
+| Pads | (+5.5, +5.5), (−5.5, −5.5) | Ø2 flat pads | Mating faces' pins land here, 7 mm from all edges to centres. |
+| Snap magnets | (−8.5, +8.5), (+8.5, −8.5) | Ø4 × 3 mm | Diagonal pair, 4 mm from all edges to centres. |
+| Snap steel discs | (+8.5, +8.5), (−8.5, −8.5) | Ø4 × 1.5 mm | Diagonal pair, opposite corners from the magnets, 4 mm from all edges to centres. |
 
 ### Why diagonal magnet/steel (and diagonal pin/pad)
 
@@ -61,11 +63,13 @@ part of cube CAD, not the head design.
 ### Clearances (tolerance watch)
 
 - Magnet pocket edge to pogo hole edge: ~1.2 mm. Magnet pocket to face
-  edge: 1.0 mm wall (Ø4 pocket centred at ±9.5 leaves 11.5 mm, face ends
-  at 12.5 mm). Both are printable in PETG but thin — if walls print
-  ragged, the fallback is smaller Ø3 corner magnets, not a new layout.
-- Fluid seal zone (Ø10) clears the electrical contacts by ~4 mm and the
-  corner magnets by ~8 mm. Nothing overlaps.
+  edge: 2.0 mm wall (Ø4 pocket centred at ±8.5 leaves 10.5 mm, face ends
+  at 12.5 mm).
+- Fluid seal zone (Ø10) clears the electrical contacts by ~1.8 mm
+  (pin edge to seal-zone edge). Tightest wall overall is the 0.5 mm
+  between adjacent-face magnet and steel pockets (pocket extents, not
+  centreline distance) — a test face print is advised before committing
+  to a full run of cubes. Nothing overlaps.
 
 ## Top and bottom faces
 
